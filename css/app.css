@@ -1,0 +1,96 @@
+/* ///// HEADINGS ///// */
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+h1, h2, h3, h4 {
+  font-family: 'Overpass', cursive;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5em;
+  line-height: 1em;
+  margin: 30px 0 15px;
+}
+h2 {
+  font-size: 4.25em;
+  margin: 0;
+}
+h3 {
+  font-size: 2.6em;
+  margin: 0;
+}
+h4 {
+  font-size: 1.4em;
+  margin: 10px 0 5px;
+}
+p, label {
+  line-height: 1.8em;
+  font-size: 1.4em;
+  color: rgb(80, 80, 80);
+}
+figcaption {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  margin: 15px 0;
+}
+a:link, a:visited {
+  color: black;
+}
+a:hover {
+  /* text-decoration: underline; */
+  color: rgb(77, 181, 0);
+}
+}
+a.thumb:link, a.thumb:visited {
+  opacity: 1;
+}
+a.thumb:hover {
+  opacity: .8;
+}
+
+.green {
+  color: rgb(77, 181, 0);
+}
+
+.greenhead {
+  color: rgb(77, 181, 0);
+  display: inline;
+}
+a:hover .greenhead {
+  color: black;
+}
+/* ///// NAV STYLES ///// */
+nav {
+  text-align: center;
+  margin: 10px 0 20px;
+  padding-top: 14px;
+  border-top: .5px solid lightgrey;
+  border-bottom: .5px solid lightgrey;
+}
+nav li {
+    display: inline;
+}
+nav a:link, nav a:visited {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding: 4px 18px;
+}
+nav a:hover {
+  /* text-decoration: underline; */
+  color: rgb(77, 181, 0);
+}
+nav a.current {
+  text-decoration: underline;
+}
+
+a img {
+  opacity: 1;
+}
+a:hover img {
+  opacity: 0.65;
+}
