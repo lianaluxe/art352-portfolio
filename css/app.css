@@ -27,7 +27,7 @@ h4 {
   font-size: 1.4em;
   margin: 10px 0 5px;
 }
-p, label {
+p, label, li {
   line-height: 1.8em;
   font-size: 1.3em;
   color: rgb(80, 80, 80);
@@ -36,6 +36,7 @@ figcaption {
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   margin: 15px 0;
+  text-align: center;
 }
 a:link, a:visited {
   color: rgb(50, 50, 50);
@@ -82,6 +83,7 @@ nav {
 }
 nav li {
     display: inline;
+    font-size: 1em;
 }
 nav a:link, nav a:visited {
   font-family: 'Lato', sans-serif;
